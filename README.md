@@ -74,25 +74,10 @@ Trains **Logistic Regression**, **Random Forest**, and **Gradient Boosting**, pr
 
 ### Step 4 — Predict
 ```bash
-# Demo on 5 hand-crafted examples
-python predict.py
 
-# Predict on your own CSV
-python predict.py --csv data/transactions.csv
 ```
 
 ---
-
-## 📊 Models & Techniques
-
-| Technique | Purpose |
-|-----------|---------|
-| SMOTE | Oversamples the minority (fraud) class |
-| Log transforms | Handles skewed `amount` and `dist_from_home` |
-| Feature engineering | Night flag, high-frequency flag, interaction terms |
-| StandardScaler | Normalises features for LR |
-| `class_weight='balanced'` | Extra penalty for fraud misclassification |
-
 ### Models Compared
 - **Logistic Regression** — fast linear baseline
 - **Random Forest** — robust ensemble, handles non-linearity well
