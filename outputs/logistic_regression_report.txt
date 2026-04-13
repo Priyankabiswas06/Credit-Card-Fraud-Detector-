@@ -1,0 +1,13 @@
+Logistic Regression
+=======================================================
+              precision    recall  f1-score   support
+
+       Legit       1.00      0.99      1.00      9800
+       Fraud       0.78      0.99      0.87       200
+
+    accuracy                           0.99     10000
+   macro avg       0.89      0.99      0.93     10000
+weighted avg       1.00      0.99      0.99     10000
+
+ROC-AUC : 0.9996
+PR-AUC  : 0.9902

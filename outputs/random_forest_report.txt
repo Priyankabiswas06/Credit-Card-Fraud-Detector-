@@ -1,0 +1,13 @@
+Random Forest
+=======================================================
+              precision    recall  f1-score   support
+
+       Legit       1.00      1.00      1.00      9800
+       Fraud       0.96      0.97      0.96       200
+
+    accuracy                           1.00     10000
+   macro avg       0.98      0.98      0.98     10000
+weighted avg       1.00      1.00      1.00     10000
+
+ROC-AUC : 0.9998
+PR-AUC  : 0.9935
